@@ -105,6 +105,7 @@ ENV/
 .vscode/
 .idea/
 
+# venv
+/share
 pyvenv.cfg
-
 /bin
