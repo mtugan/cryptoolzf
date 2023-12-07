@@ -2,6 +2,12 @@
 History
 =======
 
+2.1.0 (2023-12-07)
+------------------
+
+* Actually fix by adding reqs in `setup.cfg` `install_requires`.
+
+
 2.0.0 (2023-12-07)
 ------------------
 
