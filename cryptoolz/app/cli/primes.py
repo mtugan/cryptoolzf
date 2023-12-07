@@ -2,9 +2,9 @@ from typing import List, Union
 
 import click
 
-from cryptoolz.crypto.constants import Primes, PRIMES_MERSENNE, PRIMES_LEAST_POW_TWO
+from cryptoolzf.crypto.constants import Primes, PRIMES_MERSENNE, PRIMES_LEAST_POW_TWO
 
-from .cryptoolz import cryptoolz, help
+from .cryptoolzf import cryptoolzf, help
 
 _primes_help_text = "Get a prime number according to arguments \
 passed to options. Currently only returns primes close to powers of two \
@@ -92,4 +92,4 @@ def primes(prime, check, bits, rank):
         exit(1)
 
 
-cryptoolz.add_command(primes)
+cryptoolzf.add_command(primes)

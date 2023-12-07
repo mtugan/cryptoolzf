@@ -2,10 +2,16 @@
 History
 =======
 
+2.0.0 (2023-12-07)
+------------------
+
+* Fork by mtugan
+* Fix `requirements.txt` not being included.
+
 1.3.2 (2023-02-06)
 ------------------
 
-* Fix data files in `cryptoolz/resources` not being included.
+* Fix data files in `cryptoolzf/resources` not being included.
 
 1.3.0 (2023-02-06)
 ------------------

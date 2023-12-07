@@ -1,21 +1,21 @@
-cryptoolz.app.run package
+cryptoolzf.app.run package
 =========================
 
 Submodules
 ----------
 
-cryptoolz.app.run.dummies module
+cryptoolzf.app.run.dummies module
 --------------------------------
 
-.. automodule:: cryptoolz.app.run.dummies
+.. automodule:: cryptoolzf.app.run.dummies
    :members:
    :undoc-members:
    :show-inheritance:
 
-cryptoolz.app.run.runner module
+cryptoolzf.app.run.runner module
 -------------------------------
 
-.. automodule:: cryptoolz.app.run.runner
+.. automodule:: cryptoolzf.app.run.runner
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ cryptoolz.app.run.runner module
 Module contents
 ---------------
 
-.. automodule:: cryptoolz.app.run
+.. automodule:: cryptoolzf.app.run
    :members:
    :undoc-members:
    :show-inheritance:

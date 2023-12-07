@@ -6,13 +6,13 @@ from typing import List, Optional, Any
 from secrets import token_hex
 
 # We use this to manage complexity at least to a certain level
-from cryptoolz.app.tools.base import PreDirector
+from cryptoolzf.app.tools.base import PreDirector
 
 # For the base Keypair
 from pydantic import SecretBytes, BaseModel
 
 # Object which formats and sends output to either file or stdout
-from cryptoolz.printer import Printer, PlainWriter, HexWriter, PEMWriter, QRCodeWriter
+from cryptoolzf.printer import Printer, PlainWriter, HexWriter, PEMWriter, QRCodeWriter
 
 
 def handle_mode_opt(mode: str):

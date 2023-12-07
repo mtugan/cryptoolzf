@@ -1,13 +1,13 @@
-cryptoolz.app.tools.keys.dropins package
+cryptoolzf.app.tools.keys.dropins package
 ========================================
 
 Submodules
 ----------
 
-cryptoolz.app.tools.keys.dropins.eth module
+cryptoolzf.app.tools.keys.dropins.eth module
 -------------------------------------------
 
-.. automodule:: cryptoolz.app.tools.keys.dropins.eth
+.. automodule:: cryptoolzf.app.tools.keys.dropins.eth
    :members:
    :undoc-members:
    :show-inheritance:
@@ -15,7 +15,7 @@ cryptoolz.app.tools.keys.dropins.eth module
 Module contents
 ---------------
 
-.. automodule:: cryptoolz.app.tools.keys.dropins
+.. automodule:: cryptoolzf.app.tools.keys.dropins
    :members:
    :undoc-members:
    :show-inheritance:

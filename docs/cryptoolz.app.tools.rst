@@ -1,13 +1,13 @@
-cryptoolz.app.tools package
+cryptoolzf.app.tools package
 ===========================
 
 Submodules
 ----------
 
-cryptoolz.app.tools.keys module
+cryptoolzf.app.tools.keys module
 -------------------------------
 
-.. automodule:: cryptoolz.app.tools.keys
+.. automodule:: cryptoolzf.app.tools.keys
    :members:
    :undoc-members:
    :show-inheritance:
@@ -15,7 +15,7 @@ cryptoolz.app.tools.keys module
 Module contents
 ---------------
 
-.. automodule:: cryptoolz.app.tools
+.. automodule:: cryptoolzf.app.tools
    :members:
    :undoc-members:
    :show-inheritance:

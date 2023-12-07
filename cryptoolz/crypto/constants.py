@@ -1,5 +1,5 @@
 from typing import Callable
-from cryptoolz.utils import get_resource
+from cryptoolzf.utils import get_resource
 
 # FORMAT: { 'n': ['k'] }
 # PRIME: 2**n - k

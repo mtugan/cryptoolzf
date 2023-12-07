@@ -1,21 +1,21 @@
-cryptoolz.app.tools.keys package
+cryptoolzf.app.tools.keys package
 ================================
 
 Submodules
 ----------
 
-cryptoolz.app.tools.keys.exceptions module
+cryptoolzf.app.tools.keys.exceptions module
 ------------------------------------------
 
-.. automodule:: cryptoolz.app.tools.keys.exceptions
+.. automodule:: cryptoolzf.app.tools.keys.exceptions
    :members:
    :undoc-members:
    :show-inheritance:
 
-cryptoolz.app.tools.keys.keys module
+cryptoolzf.app.tools.keys.keys module
 ------------------------------------
 
-.. automodule:: cryptoolz.app.tools.keys.keys
+.. automodule:: cryptoolzf.app.tools.keys.keys
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ cryptoolz.app.tools.keys.keys module
 Module contents
 ---------------
 
-.. automodule:: cryptoolz.app.tools.keys
+.. automodule:: cryptoolzf.app.tools.keys
    :members:
    :undoc-members:
    :show-inheritance:

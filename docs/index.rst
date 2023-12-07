@@ -1,9 +1,9 @@
-Welcome to cryptoolz's documentation!
+Welcome to cryptoolzf's documentation!
 -------------------------------------
 
 .. warning::
 
-   Read AT LEAST **Usage** before using cryptoolz!
+   Read AT LEAST **Usage** before using cryptoolzf!
 
 Contents
 """"""""

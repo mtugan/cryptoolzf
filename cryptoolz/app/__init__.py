@@ -1,6 +1,6 @@
-import cryptoolz.app.tools as tools
-import cryptoolz.app.run as run
-import cryptoolz.app.cli as cli
+import cryptoolzf.app.tools as tools
+import cryptoolzf.app.run as run
+import cryptoolzf.app.cli as cli
 
 __all__ = [
     "tools",

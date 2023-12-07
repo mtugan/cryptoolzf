@@ -1,4 +1,4 @@
-cryptoolz.app package
+cryptoolzf.app package
 =====================
 
 Subpackages
@@ -7,14 +7,14 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   cryptoolz.app.cli
-   cryptoolz.app.run
-   cryptoolz.app.tools
+   cryptoolzf.app.cli
+   cryptoolzf.app.run
+   cryptoolzf.app.tools
 
 Module contents
 ---------------
 
-.. automodule:: cryptoolz.app
+.. automodule:: cryptoolzf.app
    :members:
    :undoc-members:
    :show-inheritance:

@@ -15,7 +15,7 @@ create
 
 .. code-block:: text
 
-    Usage: cryptoolz keys create [OPTIONS] [NUMBER_PASSPHRASES]
+    Usage: cryptoolzf keys create [OPTIONS] [NUMBER_PASSPHRASES]
                                  [NUMBER_KEYS_CREATED]
 
       This command creates a keypair for a chosen network and encrypts the secret
@@ -50,10 +50,10 @@ create
 
 .. code-block:: bash
 
-    cryptoolz keys create --header TEST # this is equal to cryptoolz keys create 1 1 --header TEST
-    cryptoolz keys create 2 2 --header TEST
-    cryptoolz keys create --format qr --outfile <specify filepath here>
-    cryptoolz keys create 2 2 --format qr --outfile <specify filepath here>
+    cryptoolzf keys create --header TEST # this is equal to cryptoolzf keys create 1 1 --header TEST
+    cryptoolzf keys create 2 2 --header TEST
+    cryptoolzf keys create --format qr --outfile <specify filepath here>
+    cryptoolzf keys create 2 2 --format qr --outfile <specify filepath here>
 
 4. These should generate outputs, either one or multiple PEM blocks in the following format:
 
@@ -97,7 +97,7 @@ reveal
 
 .. code-block:: text
 
-    Usage: cryptoolz keys reveal [OPTIONS] [NUMBER_PASSPHRASES] FILEPATHS...
+    Usage: cryptoolzf keys reveal [OPTIONS] [NUMBER_PASSPHRASES] FILEPATHS...
 
       This command is used to decrypt the encrypted format you have received, as
       output of the `create` command into some file or stdout. This format must be
@@ -148,10 +148,10 @@ reveal
 
 .. code-block:: bash
 
-    cryptoolz keys reveal 1 <path to file with data> -f pem # will print to stdout
-    cryptoolz keys reveal 2 <path to file with data> -f qr # 2 for the "2 2" case
-    cryptoolz keys reveal 1 <path to file with data> -o <path to file you want pk written to> -f qr
-    cryptoolz keys reveal 2 <path to file with data> -o <path to file you want pk written to> -f pem
+    cryptoolzf keys reveal 1 <path to file with data> -f pem # will print to stdout
+    cryptoolzf keys reveal 2 <path to file with data> -f qr # 2 for the "2 2" case
+    cryptoolzf keys reveal 1 <path to file with data> -o <path to file you want pk written to> -f qr
+    cryptoolzf keys reveal 2 <path to file with data> -o <path to file you want pk written to> -f pem
 
 6. The password for the above sample qrcode is "test" (you can just save it), it should print (or save) the following:
 
@@ -174,13 +174,13 @@ primes
 
 .. code-block:: bash
 
-    cryptoolz primes -b 512 -r 0
+    cryptoolzf primes -b 512 -r 0
     # 13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006083527
-    cryptoolz primes --least -b 400 -r 9
+    cryptoolzf primes --least -b 400 -r 9
     # 2582249878086908589655919172003011874329705792829223512830659356540647622016841194629645353280137831435903171972747490109
-    cryptoolz primes --mersenne -b 13
+    cryptoolzf primes --mersenne -b 13
     # 8191
-    cryptoolz primes --mersenne -r 13
+    cryptoolzf primes --mersenne -r 13
     # 531137992816767098689588206552468627329593117727031923199444138200403559860852242739162502265229285668889329486246501015346579337652707239409519978766587351943831270835393219031728127
 
 crypto
@@ -190,8 +190,8 @@ crypto
 
 .. code-block:: python
 
-    from cryptoolz.crypto import SecretBytes
-    from cryptoolz.crypto.circuits import EncryptPBDKF2_AESGCM, DecryptPBDKF2_AESGCM
+    from cryptoolzf.crypto import SecretBytes
+    from cryptoolzf.crypto.circuits import EncryptPBDKF2_AESGCM, DecryptPBDKF2_AESGCM
 
     ecirc = EncryptPBDKF2_AESGCM(
         pbdkf2_passphrase=SecretBytes("Some passphrase.".encode('ascii')),

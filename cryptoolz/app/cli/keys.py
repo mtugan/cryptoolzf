@@ -2,11 +2,11 @@ import click
 
 from pathlib import Path
 
-from cryptoolz.utils import process_pem_file, process_naked_b64
+from cryptoolzf.utils import process_pem_file, process_naked_b64
 
-from cryptoolz.app.run import ArgumentDummy, FileArgumentDummy, ToolRunner
+from cryptoolzf.app.run import ArgumentDummy, FileArgumentDummy, ToolRunner
 
-from .cryptoolz import cryptoolz, help
+from .cryptoolzf import cryptoolzf, help
 
 _keys_help_text = "This tool creates keypairs in encrypted format \
 with different formats to choose from, currently. In future, this tool \
@@ -253,4 +253,4 @@ def reveal(number_passphrases, filepaths, network, algorithm, format, outfile, d
 keys.add_command(create)
 keys.add_command(reveal)
 keys.add_command(help)
-cryptoolz.add_command(keys)
+cryptoolzf.add_command(keys)

@@ -1,29 +1,29 @@
-cryptoolz.crypto package
+cryptoolzf.crypto package
 =======================
 
 Submodules
 ----------
 
-cryptoolz.crypto.circuits module
+cryptoolzf.crypto.circuits module
 -------------------------------
 
-.. automodule:: cryptoolz.crypto.circuits
+.. automodule:: cryptoolzf.crypto.circuits
    :members:
    :undoc-members:
    :show-inheritance:
 
-cryptoolz.crypto.constants module
+cryptoolzf.crypto.constants module
 --------------------------------
 
-.. automodule:: cryptoolz.crypto.constants
+.. automodule:: cryptoolzf.crypto.constants
    :members:
    :undoc-members:
    :show-inheritance:
 
-cryptoolz.crypto.data module
+cryptoolzf.crypto.data module
 ---------------------------
 
-.. automodule:: cryptoolz.crypto.data
+.. automodule:: cryptoolzf.crypto.data
    :members:
    :undoc-members:
    :show-inheritance:
@@ -31,7 +31,7 @@ cryptoolz.crypto.data module
 Module contents
 ---------------
 
-.. automodule:: cryptoolz.crypto
+.. automodule:: cryptoolzf.crypto
    :members:
    :undoc-members:
    :show-inheritance:

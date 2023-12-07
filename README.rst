@@ -3,18 +3,18 @@ About
 =====
 
 
-.. image:: https://img.shields.io/pypi/v/cryptoolz.svg
-        :target: https://pypi.python.org/pypi/cryptoolz
+.. image:: https://img.shields.io/pypi/v/cryptoolzf.svg
+        :target: https://pypi.python.org/pypi/cryptoolzf
 
-.. image:: https://img.shields.io/travis/tanats_nir/cryptoolz.svg
-        :target: https://travis-ci.com/tanats_nir/cryptoolz
+.. image:: https://img.shields.io/travis/mtugan/cryptoolzf.svg
+        :target: https://travis-ci.com/mtugan/cryptoolzf
 
-.. image:: https://readthedocs.org/projects/cryptoolz/badge/?version=latest
-        :target: https://cryptoolz.readthedocs.io/en/latest/?version=latest
+.. image:: https://readthedocs.org/projects/cryptoolzf/badge/?version=latest
+        :target: https://cryptoolzf.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
 * Free software: GNU General Public License v3
-* Documentation: https://cryptoolz.readthedocs.io.
+* Documentation: https://cryptoolzf.readthedocs.io.
 
 What
 ----
@@ -50,7 +50,7 @@ Modules offered
 Disclaimer
 ----------
 
-The use of this library is at your own risk. The developer and contributors of cryptoolz are not liable for any types of damages caused through the use of anything which is part of this project.
+The use of this library is at your own risk. The developer and contributors of cryptoolzf are not liable for any types of damages caused through the use of anything which is part of this project.
 
 Credits
 -------

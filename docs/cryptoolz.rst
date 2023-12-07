@@ -1,4 +1,4 @@
-cryptoolz package
+cryptoolzf package
 =================
 
 Subpackages
@@ -7,40 +7,40 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   cryptoolz.app
-   cryptoolz.crypto
+   cryptoolzf.app
+   cryptoolzf.crypto
 
 Submodules
 ----------
 
-cryptoolz.base module
+cryptoolzf.base module
 ---------------------
 
-.. automodule:: cryptoolz.base
+.. automodule:: cryptoolzf.base
    :members:
    :undoc-members:
    :show-inheritance:
 
-cryptoolz.factory module
+cryptoolzf.factory module
 ------------------------
 
-.. automodule:: cryptoolz.factory
+.. automodule:: cryptoolzf.factory
    :members:
    :undoc-members:
    :show-inheritance:
 
-cryptoolz.printer module
+cryptoolzf.printer module
 ------------------------
 
-.. automodule:: cryptoolz.printer
+.. automodule:: cryptoolzf.printer
    :members:
    :undoc-members:
    :show-inheritance:
 
-cryptoolz.utils module
+cryptoolzf.utils module
 ----------------------
 
-.. automodule:: cryptoolz.utils
+.. automodule:: cryptoolzf.utils
    :members:
    :undoc-members:
    :show-inheritance:
@@ -48,7 +48,7 @@ cryptoolz.utils module
 Module contents
 ---------------
 
-.. automodule:: cryptoolz
+.. automodule:: cryptoolzf
    :members:
    :undoc-members:
    :show-inheritance:

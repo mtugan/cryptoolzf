@@ -14,7 +14,7 @@ from pydantic import SecretBytes, SecretStr
 from .dummies import ArgumentDummy, FileArgumentDummy
 
 # Import all tool modules
-from cryptoolz.app.tools import Tools
+from cryptoolzf.app.tools import Tools
 
 
 class ToolRunner:

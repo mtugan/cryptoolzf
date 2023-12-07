@@ -1,13 +1,13 @@
 from typing import List, Any
 
-from cryptoolz.app.tools.base import Args, Options, PreDirector
+from cryptoolzf.app.tools.base import Args, Options, PreDirector
 
-from cryptoolz.crypto import SecretBytes
+from cryptoolzf.crypto import SecretBytes
 
 from secrets import token_hex
 
 # Cryptograhic circuits and data models which hold our input and output data which are transformed later on
-from cryptoolz.crypto.circuits import (
+from cryptoolzf.crypto.circuits import (
     EncryptPBDKF2_AESGCM,
     DecryptPBDKF2_AESGCM,
     OutsEncryptAESGCM,
@@ -20,18 +20,18 @@ from coincurve import PublicKey
 from eth_utils.address import to_checksum_address as checksum
 
 # An instance factory
-from cryptoolz.factory import Factory
+from cryptoolzf.factory import Factory
 
 # Printer class
-from cryptoolz.printer import Printer
+from cryptoolzf.printer import Printer
 
 # The base keypair
 from ..base import Keypair
 
 # For picking values out from below
-from cryptoolz.utils import match_value, match_values, get_next_free_po
+from cryptoolzf.utils import match_value, match_values, get_next_free_po
 
-from cryptoolz.crypto.exceptions import WrongDecryptionInputs
+from cryptoolzf.crypto.exceptions import WrongDecryptionInputs
 
 
 FORMATS = {

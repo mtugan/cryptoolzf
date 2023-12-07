@@ -1,8 +1,8 @@
-"""Top-level package for cryptoolz."""
+"""Top-level package for cryptoolzf."""
 
-import cryptoolz.crypto as crypto
+import cryptoolzf.crypto as crypto
 
-__author__ = """Tanats Nir"""
-__email__ = "tanats_nir@disroot.org"
-__version__ = "1.3.2"
+__author__ = """Mtugan"""
+__email__ = ""
+__version__ = "2.0.0"
 __all__ = ["crypto"]

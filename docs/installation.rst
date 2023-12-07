@@ -63,17 +63,17 @@ On Linux:
 
 .. _`setup your shell environment.`: https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv
 
-cryptoolz
+cryptoolzf
 ^^^^^^^^
 
-The best way to install cryptoolz after this, for regular users, is as follows:
+The best way to install cryptoolzf after this, for regular users, is as follows:
 
 .. code-block:: bash
 
-    pipx install --suffix <cryptoolz version> cryptoolz
+    pipx install --suffix <cryptoolzf version> cryptoolzf
 
 
-We want to essentially be absolutely sure that our local installation is always able to decrypt some data, so instead of updating cryptoolz we should simply always have a fresh install with a new suffix. As such, we never upgrade once downloaded versions.
+We want to essentially be absolutely sure that our local installation is always able to decrypt some data, so instead of updating cryptoolzf we should simply always have a fresh install with a new suffix. As such, we never upgrade once downloaded versions.
 
 This does not mean that the library won't be backwards compatible, but this is simply the safest option for regular users.
 
@@ -82,26 +82,26 @@ If using pyenv, you might also want to install a fixed version and then, in bash
 .. code-block:: bash 
 
     pyenv shell <python version installed>
-    pipx install --suffix <python version installed> cryptoolz
+    pipx install --suffix <python version installed> cryptoolzf
     pyenv shell $(pyenv global) # or just exit and open a new shell
 
-Instead when using cryptoolz as a library the regular:
+Instead when using cryptoolzf as a library the regular:
 
 .. code-block:: bash
 
-    pip install cryptoolz
+    pip install cryptoolzf
 
 Is used as usual.
 
 From sources
 ------------
 
-The sources for cryptoolz can be downloaded from the `Codeberg repo`_.
+The sources for cryptoolzf can be downloaded from the `Github repo`_.
 
 You can clone the public repository:
 
 .. code-block:: bash
 
-    git clone git://codeberg.com/tanats_nir/cryptoolz
+    git clone git://github.com/mtugan/cryptoolzf
 
-.. _Codeberg repo: https://codeberg.com/tanats_nir/cryptoolz
+.. _Github repo: https://github.com/mtugan/cryptoolzf

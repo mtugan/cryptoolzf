@@ -17,8 +17,8 @@ script: tox
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
-  user: tanats_nir
+  user: mtugan
   on:
     tags: true
-    repo: tanats_nir/cryptoolz
+    repo: mtugan/cryptoolzf
     python: 3.11

@@ -1,4 +1,4 @@
-"""Console script for cryptoolz."""
+"""Console script for cryptoolzf."""
 from typing import List, Tuple, Any
 
 import sys
@@ -26,7 +26,7 @@ class SecretStrClickParamType(click.ParamType):
             return SecretStr(str(value))
         except:
             self.fail(
-                f"cryptoolz :: click: {value} cannot be converted to a string!",
+                f"cryptoolzf :: click: {value} cannot be converted to a string!",
                 param,
                 ctx,
             )
@@ -39,7 +39,7 @@ class SecretBytesClickParamType(click.ParamType):
     def __init__(self, encoding: str | None):
         if encoding is None:
             raise ValueError(
-                "cryptoolz :: SecretBytesClickParamType.__init__: encoding can't be none!"
+                "cryptoolzf :: SecretBytesClickParamType.__init__: encoding can't be none!"
             )
         self.encoding = encoding
 
@@ -48,7 +48,7 @@ class SecretBytesClickParamType(click.ParamType):
             return SecretBytes(str(value).encode(self.encoding))
         except:
             self.fail(
-                f"cryptoolz :: click: {value} cannot be converted to a string!",
+                f"cryptoolzf :: click: {value} cannot be converted to a string!",
                 param,
                 ctx,
             )
@@ -62,7 +62,7 @@ ClickSecretBytesUTF8 = SecretBytesClickParamType("utf-8")
 @click.group(context_settings={"help_option_names": ["-h", "--help"]})
 @click.option("-m", "--module", type=str, nargs=1, required=False)
 @click.pass_context
-def cryptoolz(ctx, module):
+def cryptoolzf(ctx, module):
     pass
 
 
@@ -72,4 +72,4 @@ def help(ctx):
     print(ctx.parent.get_help())
 
 
-cryptoolz.add_command(help)
+cryptoolzf.add_command(help)

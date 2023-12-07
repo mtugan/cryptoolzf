@@ -1,9 +1,9 @@
-from .cryptoolz import cryptoolz
+from .cryptoolzf import cryptoolzf
 from .primes import primes
 from .keys import keys, create, reveal
 
 __all__ = [
-    "cryptoolz",
+    "cryptoolzf",
     "primes",
     "keys",
     "create",

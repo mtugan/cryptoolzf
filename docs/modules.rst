@@ -1,7 +1,7 @@
-cryptoolz
+cryptoolzf
 =========
 
 .. toctree::
    :maxdepth: 4
 
-   cryptoolz
+   cryptoolzf

@@ -66,7 +66,7 @@ def get_next_free_po(po: Path) -> Path:
     return po
 
 
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__))  # cryptoolz root
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))  # cryptoolzf root
 
 
 def get_resource(filename: str) -> Any:

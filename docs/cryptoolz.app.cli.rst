@@ -1,21 +1,21 @@
-cryptoolz.app.cli package
+cryptoolzf.app.cli package
 =========================
 
 Submodules
 ----------
 
-cryptoolz.app.cli.cryptoolz module
+cryptoolzf.app.cli.cryptoolzf module
 ----------------------------------
 
-.. automodule:: cryptoolz.app.cli.cryptoolz
+.. automodule:: cryptoolzf.app.cli.cryptoolzf
    :members:
    :undoc-members:
    :show-inheritance:
 
-cryptoolz.app.cli.keys module
+cryptoolzf.app.cli.keys module
 -----------------------------
 
-.. automodule:: cryptoolz.app.cli.keys
+.. automodule:: cryptoolzf.app.cli.keys
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ cryptoolz.app.cli.keys module
 Module contents
 ---------------
 
-.. automodule:: cryptoolz.app.cli
+.. automodule:: cryptoolzf.app.cli
    :members:
    :undoc-members:
    :show-inheritance:

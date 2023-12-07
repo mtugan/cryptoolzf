@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Tanats Nir <tanats.nir@disroot.org>
+* Mtugan <>
 
 Contributors
 ------------
